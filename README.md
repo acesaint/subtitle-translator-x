@@ -3,6 +3,11 @@
 **把视频里的外文（软）字幕翻译成中文，生成一条中文 + 一条原文的双语 `.ass` 字幕。**
 macOS 原生小工具，Python + CustomTkinter 编写，翻译走任意 OpenAI 兼容接口（OpenAI / DeepSeek / Ollama / LM Studio / llama.cpp / vLLM …）。
 
+[![Download](https://img.shields.io/badge/⬇_下载-DMG_23MB-2a9d8f)](https://github.com/acesaint/subtitle-translator-x/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.2.0-2a9d8f)](https://github.com/acesaint/subtitle-translator-x/releases)
+[![macOS](https://img.shields.io/badge/macOS-11%2B-lightgrey)](https://www.apple.com/macos/)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 > A small, production-ready macOS app that extracts **soft subtitles** from video
 > files, translates them into **Simplified Chinese** through any
 > OpenAI-compatible LLM, and writes **bilingual `.ass`** files — with a clean,
@@ -71,8 +76,19 @@ macOS 原生小工具，Python + CustomTkinter 编写，翻译走任意 OpenAI �
 
 ### 1. 安装应用
 
-下载 `Subtitle-Translator-1.2.0.dmg` → 双击打开 → 把 **Subtitle Translator**
-拖到 `Applications` → 推出磁盘映像 → 从「应用程序」启动。
+下载 **[Subtitle-Translator-1.2.0.dmg](https://github.com/acesaint/subtitle-translator-x/releases/download/v1.2.0/Subtitle-Translator-1.2.0.dmg)**
+（23 MB）→ 双击打开 → 把 **Subtitle Translator** 拖到 `Applications` → 推出磁盘映像 →
+从「应用程序」启动。
+
+<details>
+<summary>校验下载完整性（可选）</summary>
+
+```bash
+shasum -a 256 ~/Downloads/Subtitle-Translator-1.2.0.dmg
+# c967fedfaf9474cc57dd931807aa13ec140cacd4c6146649e0304cec87c56be7
+```
+
+</details>
 
 **系统要求**：macOS 11 Big Sur 或更高；当前构建为 **Apple silicon (arm64)**。
 Intel Mac 需要在本机用 universal2 版 Python 重新构建（见 [从源码构建](#从源码构建)）。
