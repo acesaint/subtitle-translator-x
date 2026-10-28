@@ -1,0 +1,6 @@
+# Subtitle Translator — dependencies
+# Requirements: Python 3.10+ with Tcl/Tk >= 8.6 (Tk 8.5 on macOS renders a blank
+# window). ffmpeg / ffprobe must be installed separately (see README, via Homebrew).
+
+customtkinter>=5.2.0   # modern, native-feeling macOS GUI
+openai>=1.12.0         # OpenAI-compatible chat client (custom base_url supported)

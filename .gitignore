@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# App data
+.subtitle_translator.json
+.DS_Store
+
+# Intermediate / temp subtitle files
+*.tmp.srt
+
+# Generated macOS app bundles (rebuild with ./build_app.sh or ./build_release.sh)
+*.app
+*.dmg
+
+# Release build output
+dist/
+build/
